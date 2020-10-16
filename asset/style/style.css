@@ -1,0 +1,207 @@
+
+/*For All Device*/
+
+.container-fluid {
+	background: #F5F5F5;
+}
+
+
+/* Navbar */
+
+	.navbar {
+		font-family: sanseriffic;
+	}
+
+	.start-nav img {
+		width: 300px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 15px;
+	}
+
+	.nav-link {
+		margin-right: 10px;
+		color: #968c83 !important;
+	}
+
+	.navbar .dropdown-item {
+		font-weight: 100;
+	}
+/*End Navbar*/
+
+
+/* Head Content*/
+	.head-content {
+		height: 300px;
+		margin-top: 135px;
+	}
+
+	.head-content .col-sm {
+		height: 100%;
+		background: red;
+	}
+
+	.head-content .left-head {
+		background: #1b6ca8;
+		text-align: center;
+	}
+
+	.head-content .right-head {
+		background-image: url(../img/up-image.jpeg);
+		background-size: cover;
+	}
+
+	.left-head h5 {
+		color: white;
+		margin-top: 50px;
+		font-weight: 200;
+		font-size: 40px;
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+	}
+
+	.left-head h5 span {
+		font-weight: 500;
+	}
+
+	.left-head a {
+		margin-top: 50px;
+		font-size: 12px;
+		border-radius: 40px;
+		
+	}
+
+/*End Head Content*/
+
+/*Start About*/
+	.head-about {
+		text-align: center;
+		margin-top: 80px;
+	}
+
+	.head-about h5 {
+		font-family: sanseriffic;
+		font-size: 40px;
+	}
+
+	.head-about p {
+		font-family: sanseriffic;
+		font-weight: 200;
+		color: #acacac;
+	}
+
+	.carousel {
+		width: 750px;;
+	}
+
+	.head-about .about {
+		margin-top: 20px;
+	}
+/*End About*/
+
+/*Start Content*/
+	.wrap-content {
+		background: white;
+		width: 100%;
+
+	}
+	.content {
+		margin-top: 150px;
+		text-align: center;
+		font-family: sanseriffic;
+		font-size: 40px;
+	}
+
+	/* Content 1*/
+	.content-content1 {
+		height: 350px;
+		margin-top: 80px;
+		font-family: sanseriffic;
+	}
+
+	.content-content1 .col {
+		height: 100%;
+	}
+
+	.content-content1 .left-content1 {
+		background-image: url(../img/grad.jpg);
+		background-size: cover;
+	}
+
+	.content-content1 .center-content1 h5{
+		margin-top: 80px;
+		margin-left: 80px;
+	}
+
+	.content-content1 .center-content1 p {
+		margin-top: 40px;
+		margin-left: 80px;
+		margin-right: 50px;
+		color: #acacac;
+	}
+
+	.content-content1 .right-content1 {
+		background-image: url(../img/study.jpg);
+		background-size: cover;
+	}
+
+		/*Content 2*/
+	.content-content2{
+		height: 350px;
+		font-family: sanseriffic;
+	}
+	.content-content2 .col {
+		height: 100%;
+	}
+
+	.left-content2 h5{
+		margin-top: 80px;
+		margin-left: 80px;
+	}
+	.left-content2 p {
+		margin-top: 40px;
+		margin-left: 80px;
+		margin-right: 50px;
+		color: #acacac;
+	}
+
+	.center-content2 {
+		background-image: url(../img/tpbd.jpg);
+		background-size: cover;
+	}
+
+	.right-content2 h5{
+		margin-top: 80px;
+		margin-left: 80px;
+	}
+	.right-content2 p {
+		margin-top: 40px;
+		margin-left: 80px;
+		margin-right: 50px;
+		color: #acacac;
+	}
+
+/*End Content*/
+
+/* For Desktop */
+@media (min-width: 992px) { 
+
+	.nav-link {
+		text-transform: uppercase;
+	}
+
+	.nav-link:hover {
+		border-bottom: 3px solid #2d6187;
+		margin-bottom: -5px;
+	}
+
+	.head-content {
+		height: 500px;
+	}
+	.left-head h5 {
+		margin-top: 150px;
+		font-size: 60px;
+	}
+
+}
+
