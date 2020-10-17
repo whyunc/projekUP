@@ -1,5 +1,4 @@
 /* Navbar */
-
 	.navbar {
 		font-family: sanseriffic;
 	}
@@ -14,7 +13,7 @@
 
 	.nav-link {
 		margin-right: 10px;
-		color: #968c83 !important;
+		color: #ffffff !important;
 	}
 
 	.navbar .dropdown-item {
