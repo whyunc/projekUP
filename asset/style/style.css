@@ -76,7 +76,7 @@
 /*Start About*/
 	.head-about {
 		text-align: center;
-		margin-top: 80px;
+		margin-top: 400px;
 	}
 
 	.head-about h5 {
@@ -91,7 +91,7 @@
 	}
 
 	.carousel {
-		width: 750px;;
+		width: 100%;
 	}
 
 	.head-about .about {
@@ -100,9 +100,8 @@
 /*End About*/
 
 /*Start Content*/
-	.wrap-content {
+	.wrap-content .row{
 		background: white;
-		width: 100%;
 
 	}
 	.content {
@@ -114,12 +113,12 @@
 
 	/* Content 1*/
 	.content-content1 {
-		height: 350px;
+		height:250px;
 		margin-top: 80px;
 		font-family: sanseriffic;
 	}
 
-	.content-content1 .col {
+	.content-content1 .col-sm {
 		height: 100%;
 	}
 
@@ -129,13 +128,13 @@
 	}
 
 	.content-content1 .center-content1 h5{
-		margin-top: 80px;
-		margin-left: 80px;
+		margin-top: 40px;
+		margin-left: 40px;
 	}
 
 	.content-content1 .center-content1 p {
-		margin-top: 40px;
-		margin-left: 80px;
+		margin-top: 20px;
+		margin-left: 40px;
 		margin-right: 50px;
 		color: #acacac;
 	}
@@ -147,20 +146,22 @@
 
 		/*Content 2*/
 	.content-content2{
-		height: 350px;
+		height: 250px;
+		margin-top: 500px;
 		font-family: sanseriffic;
+		clear: both;
 	}
-	.content-content2 .col {
+	.content-content2 .col-sm {
 		height: 100%;
 	}
 
 	.left-content2 h5{
-		margin-top: 80px;
-		margin-left: 80px;
+		margin-top: 40px;
+		margin-left: 40px;
 	}
 	.left-content2 p {
-		margin-top: 40px;
-		margin-left: 80px;
+		margin-top: 20px;
+		margin-left: 40px;
 		margin-right: 50px;
 		color: #acacac;
 	}
@@ -171,12 +172,12 @@
 	}
 
 	.right-content2 h5{
-		margin-top: 80px;
-		margin-left: 80px;
+		margin-top: 40px;
+		margin-left: 40px;
 	}
 	.right-content2 p {
-		margin-top: 40px;
-		margin-left: 80px;
+		margin-top: 20px;
+		margin-left: 40px;
 		margin-right: 50px;
 		color: #acacac;
 	}
@@ -186,6 +187,7 @@
 /* For Desktop */
 @media (min-width: 992px) { 
 
+	/* Navbar */
 	.nav-link {
 		text-transform: uppercase;
 	}
@@ -194,7 +196,9 @@
 		border-bottom: 3px solid #2d6187;
 		margin-bottom: -5px;
 	}
+	/*End Navbar*/
 
+	/*Head Content*/
 	.head-content {
 		height: 500px;
 	}
@@ -202,6 +206,58 @@
 		margin-top: 150px;
 		font-size: 60px;
 	}
+	/*End Head Content*/
 
+	/*about*/
+	.head-about {
+		margin-top: 80px;
+	}
+	.carousel {
+		width: 750px;
+	}
+	/*End About*/
+
+	/*Content*/
+
+	.content-content1, .content-conten2 {
+		height: 350px;
+	}
+
+	.content-content1 .center-content1 h5{
+		margin-top: 80px;
+		margin-left: 80px;
+	}
+
+	.content-content1 .center-content1 p {
+		margin-top: 40px;
+		margin-left: 80px;
+		margin-right: 50px;
+	}
+
+	.left-content2 h5{
+		margin-top: 80px;
+		margin-left: 80px;
+	}
+	.left-content2 p {
+		margin-top: 40px;
+		margin-left: 80px;
+		margin-right: 50px;
+	}
+
+	.right-content2 h5{
+		margin-top: 80px;
+		margin-left: 80px;
+	}
+	.right-content2 p {
+		margin-top: 40px;
+		margin-left: 80px;
+		margin-right: 50px;
+	}
+
+
+	.content-content2 {
+		margin-top: 0;
+	}
+	/*End Content*/
 }
 
