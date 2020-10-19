@@ -1,13 +1,7 @@
-
-/*For All Device*/
-
-.container-fluid {
-	background: #F5F5F5;
-}
-
-
 /* Navbar */
-
+	.container-fluid{
+		background-color: #F7F7F8;
+	}
 	.navbar {
 		font-family: sanseriffic;
 	}
@@ -22,7 +16,7 @@
 
 	.nav-link {
 		margin-right: 10px;
-		color: #968c83 !important;
+		color: #000 !important;
 	}
 
 	.navbar .dropdown-item {
@@ -34,7 +28,7 @@
 /* Head Content*/
 	.head-content {
 		height: 300px;
-		margin-top: 135px;
+		margin-top: 63px;
 	}
 
 	.head-content .col-sm {
@@ -114,7 +108,7 @@
 	/* Content 1*/
 	.content-content1 {
 		height:250px;
-		margin-top: 80px;
+		margin-top: 45px;
 		font-family: sanseriffic;
 	}
 
@@ -223,7 +217,8 @@
 		height: 350px;
 	}
 
-	.content-content2 {
+
+	.content-content2{
 		height: 350px;
 	}
 
