@@ -219,7 +219,11 @@
 
 	/*Content*/
 
-	.content-content1, .content-conten2 {
+	.content-content1 {
+		height: 350px;
+	}
+
+	.content-content2 {
 		height: 350px;
 	}
 
